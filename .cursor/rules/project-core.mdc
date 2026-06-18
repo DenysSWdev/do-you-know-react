@@ -1,0 +1,13 @@
+---
+description: Core project context and agent layout for do-you-know-react
+alwaysApply: true
+---
+
+# Project core
+
+- **Stack:** React 19, TypeScript, Vite 8, ESLint 10, Prettier 3
+- **Shared agent instructions:** [AGENTS.md](../../AGENTS.md)
+- **Skills:** `.agents/skills/` (canonical); Cursor also reads `.cursor/skills/` and `.claude/skills/` when present
+- **Scripts:** `npm run dev`, `build`, `lint`, `preview`
+
+Keep changes minimal and match existing conventions. Config files tagged `@agent-maintain` are comments-only unless the user asks to change values.
